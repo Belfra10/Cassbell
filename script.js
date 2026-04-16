@@ -1,4 +1,3 @@
-// Smooth Scrolling for Navigation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -8,7 +7,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Form Validation Example [cite: 26]
 const bookingForm = document.querySelector('.booking-form');
 if(bookingForm) {
     bookingForm.addEventListener('submit', function(e) {
@@ -22,7 +20,6 @@ if(bookingForm) {
     });
 }
 
-// Gallery Lightbox Placeholder Logic
 const images = document.querySelectorAll('.gallery-item img');
 images.forEach(img => {
     img.addEventListener('click', () => {
